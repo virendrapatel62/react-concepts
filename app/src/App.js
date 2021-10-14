@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Fragment } from "react";
+import ReactPortal from "./components/ReactPortal";
 
 function Wrapper(props) {
   return props.children;
@@ -52,7 +53,8 @@ function ComponentWithMultiPleElements(props) {
 function App() {
   return (
     <Wrapper>
-      <ComponentWithMultiPleElements />;
+      <ComponentWithMultiPleElements />
+      <ReactPortal></ReactPortal>
     </Wrapper>
   );
 }

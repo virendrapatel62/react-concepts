@@ -1,0 +1,40 @@
+.Show {
+  display: block;
+}
+
+.Hide {
+  display: none;
+}
+
+.Content {
+  padding: 10px;
+}
+.Modal {
+  position: absolute;
+  top: 20px;
+  left: 25%;
+  width: 50%;
+  box-shadow: 1px 5px 10px #eee;
+  border-radius: 20px;
+}
+
+.Button {
+  margin: 20px;
+  float: right;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 1px 5px 10px #eee;
+  font-size: 1.2rem;
+  padding: 5px;
+  background-color: white;
+}
+
+.Heading {
+  background-color: gold;
+  padding: 10px;
+  margin: 0px;
+  border-radius: inherit;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
