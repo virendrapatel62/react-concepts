@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Fragment } from "react";
 
 function Wrapper(props) {
   return props.children;
@@ -12,7 +13,18 @@ function ComponentWithMultiPleElements(props) {
   //     <h1>Heading2</h1>
   // );
 
-  //case3 using custom wrapper
+  //case4  using custom wrapper
+
+  return (
+    <Fragment>
+      <h1>Hello 1</h1>
+      <h1>Hello 2</h1>
+      <h1>Hello 3</h1>
+      <h1>Hello 4</h1>
+    </Fragment>
+  );
+
+  // case 3 // using array
 
   return (
     <Wrapper>
@@ -38,7 +50,11 @@ function ComponentWithMultiPleElements(props) {
 }
 
 function App() {
-  return <ComponentWithMultiPleElements />;
+  return (
+    <Wrapper>
+      <ComponentWithMultiPleElements />;
+    </Wrapper>
+  );
 }
 
 export default App;
