@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Fragment, useReducer, useRef, useState } from "react";
 import DummyComponent from "./components/DummyComponent";
 
 function App() {
