@@ -1,0 +1,27 @@
+.Ul {
+  display: flex;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(23, 93, 163);
+  color: white;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavItem {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.NavItem:hover {
+  cursor: pointer;
+  color: rgb(189, 198, 211);
+}

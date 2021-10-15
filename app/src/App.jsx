@@ -1,8 +1,8 @@
-import "./App.css";
 import DummyComponent from "./components/DummyComponent";
+import Header from "./components/Layout/Header";
 
 function App() {
-  return <DummyComponent title="My App Component" />;
+  return <Header />;
 }
 
 export default App;
