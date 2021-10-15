@@ -1,8 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Fragment, useReducer, useRef, useState } from "react";
-import ReactPortal from "./components/ReactPortal";
-import Form from "./components/Form";
 
 const studentReducer = (state = [], action) => {
   console.log({ state, action });
