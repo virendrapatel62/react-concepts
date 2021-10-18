@@ -1,18 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
 import classes from "./Header.module.css";
+import HeaderCartButton from "./HeaderCartButton";
 
 export default function Header() {
   return (
     <div className={classes.Nav}>
       <a className={classes.NavItem}>
-        <h4>Navbar</h4>
+        <h4>React Meals</h4>
       </a>
       <div className={classes.Ul}>
         <div className={classes.NavItem}>
-          <a href="/home">Home</a>
+          <HeaderCartButton />
         </div>
-        <div className={classes.NavItem}>Login</div>
-        <div className={classes.NavItem}>Meals</div>
       </div>
     </div>
   );

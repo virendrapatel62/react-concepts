@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid rgb(185, 180, 180);
+  padding-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+}
+.content {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgb(16, 67, 119);
+}
+.image {
+  height: 200px;
+  border-radius: 40px;
+}

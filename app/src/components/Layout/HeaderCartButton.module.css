@@ -1,0 +1,31 @@
+.Icon {
+  color: white;
+}
+
+.Text {
+  margin: 0px 10px;
+}
+
+.Badge {
+  background-color: rgb(29, 105, 182);
+  color: white;
+  padding: 3px 15px;
+  border-radius: 20px;
+}
+
+.Button {
+  background-color: rgb(16, 63, 110);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 5px 30px;
+  color: white;
+}
+.Button:hover {
+  background-color: rgb(16, 48, 80);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 5px 30px;
+  color: white;
+}
